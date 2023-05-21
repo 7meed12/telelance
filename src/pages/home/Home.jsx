@@ -72,7 +72,8 @@ function Home() {
                   alt=""
                 />
                 <div className="line"></div>
-                <span>المدونات الصوتية</span>
+                <a href="#podcats"><span>المدونات الصوتية</span></a>
+                
               </div>
               <div className="item">
                 <img
@@ -306,7 +307,7 @@ function Home() {
 
       </div>
 
-      <div className="features dark" dir="rtl" id="interviews">
+      <div className="features dark" dir="rtl" id="podcats">
           
           <div className="container  col-lg-12">
          <div className="row">
