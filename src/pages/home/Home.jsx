@@ -311,8 +311,11 @@ function Home() {
           
           <div className="container  col-lg-12">
          <div className="row">
-              <div className="item col-12 " style={{paddingTop:"200px"}}>
-                <h1> عشان تعرف اكتر عن ال Freelance اسمع من متخصصينا ...
+              <div className="item col-12" style={{paddingTop:"200px"}}>
+                <h1 style={{marginLeft:"100px"}}> Tips and Tricks
+<br />
+<br />
+تخليك Freelancer مميز
 </h1>
               </div>
               <div className="item col-12">
