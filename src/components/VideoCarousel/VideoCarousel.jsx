@@ -1,13 +1,14 @@
 import Carousel from 'react-bootstrap/Carousel';
+
+
 function VideoCarousel({ videos }) {
     return (
-        <Carousel>
+        <Carousel controls={true} >
             {
                 videos.map((item) => {
                     return (
                         <Carousel.Item>
-                            <video video src={item} controls height={700}></video>
-
+                             <iframe width="560" height="515" src={item} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                         </Carousel.Item>
                     )
